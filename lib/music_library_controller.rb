@@ -34,7 +34,6 @@ def call
     "exit"
   else
     puts "Invalid choice"
-    main_menu
   end
 end
 
