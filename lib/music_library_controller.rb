@@ -19,7 +19,7 @@ def call
   
   case input
   when "list songs"
-    #do something
+    #list_songs
     main_menu
   when "list artists"
     main_menu
