@@ -21,7 +21,7 @@ def call
   when "list songs"
     list_songs
   when "list artists"
-    main_menu
+    list_artists
   when "list artist"
     main_menu
   when "list genre"
