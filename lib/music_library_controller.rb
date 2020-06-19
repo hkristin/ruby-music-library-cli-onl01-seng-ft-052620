@@ -39,7 +39,7 @@ end
 
 def list_songs
   Song.sort.each.with_index(1) do |song, index|
-    puts "#{index}. - #{song.name}"
+    puts "#{index}.-#{song.name}"
   end
 end
  
