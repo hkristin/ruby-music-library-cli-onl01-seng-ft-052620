@@ -38,7 +38,7 @@ def call
 end
 
 def list_songs
-  Song.alphabetize.each.with_index(1) do |song, index|
+  Song.sort.each.with_index(1) do |song, index|
     puts "#{index}. - #{song.name}"
   end
 end
