@@ -31,7 +31,7 @@ def call
   when "play song"
     play_song
   when "exit"
-    "exit"
+    exit
   else
     puts "Invalid choice"
   end
