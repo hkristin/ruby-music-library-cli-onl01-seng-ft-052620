@@ -25,11 +25,11 @@ def call
   when "list artist"
     list_artist
   when "list genre"
-    main_menu
+    list_genre
   when "list genres"
-    main_menu
+    list_genres
   when "play song"
-    main_menu
+    play_song
   when "exit"
     "exit"
   else
