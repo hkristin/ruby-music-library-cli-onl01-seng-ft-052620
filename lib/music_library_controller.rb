@@ -32,7 +32,7 @@ def call
   when "play song"
     main_menu
   when "exit"
-    exit
+    "exit"
   else
     puts "Invalid choice"
     main_menu
