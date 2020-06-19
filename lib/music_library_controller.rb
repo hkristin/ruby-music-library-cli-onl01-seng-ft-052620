@@ -39,10 +39,16 @@ end
 
 def list_songs
   Song.alphabetize.each.with_index(1) do |song, index|
-    puts "#{index}. #{song.name} - 
+    puts "#{index}. - #{song.name}"
   end
 end
-  #{song.artist.name}
-  #{song.artist.name}
+ 
+def list_artists
+   Artist.alphabetize.each.with_index(1) do |artist, index|
+    puts "#{index}. - #{artist.name}"
+  end
+  end
+end
+
 end
 
